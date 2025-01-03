@@ -207,7 +207,6 @@ body {
 .toTLetter {
   text-transform: uppercase;
   font-family: "Sixtyfour", serif;
-  font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
   font-size: x-large;
@@ -352,7 +351,6 @@ body {
 .gardeningNTwoLetter,
 .toOLetter {
   font-family: "Kablammo", serif;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   color: #f65600;
@@ -369,7 +367,6 @@ body {
 }
 .becauseSLetter {
   font-family: "Kablammo", serif;
-  font-optical-sizing: auto;
   font-weight: bold;
   font-style: italic;
   color: #0a2a40;
@@ -478,7 +475,6 @@ body {
 }
 .improveVLetter {
   font-family: "Kablammo", serif;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-size: 70px;
@@ -488,7 +484,6 @@ body {
 .improveELetter {
   ext-transform: uppercase;
   font-family: "Sixtyfour", serif;
-  font-optical-sizing: auto;
   font-weight: 700;
   background-image: url(https://img.freepik.com/premium-photo/watercolor-blue-abstract-art-handmade-diy-painting-textured-paper-background-watercolour-backdrop-painted-frosty-ice-cold-surface-with-broken-lines_152932-2778.jpg);
 }
@@ -515,7 +510,7 @@ body {
 }
 .theirILetter {
   font-family: "Kablammo", serif;
-  font-optical-sizing: auto;
+
   font-weight: 400;
   font-style: normal;
   color: #ff0080;
@@ -541,7 +536,6 @@ body {
 }
 .rootOTwoLetter {
   font-family: "Kablammo", serif;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   color: #055c37;
@@ -600,7 +594,6 @@ body {
 .exclamation-mark,
 .question-mark {
   font-family: "Kablammo", serif;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   color: #7800e0;
