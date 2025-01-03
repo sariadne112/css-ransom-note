@@ -1,6 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barrio&family=Butcherman&family=Kablammo&family=Oi&display=swap");
 
 * {
   padding: 0;
@@ -53,252 +57,553 @@ body {
 
 /* Sample CSS for the WHY word */
 
-.whyWLetter {
+.whyWLetter,
+.developerELetter,
+.gardeningALetter,
+.gardeningILetter,
+.theirRLetter {
   font-size: 72px;
   font-weight: bold;
-  color: aqua;
   text-decoration: underline;
   text-transform: uppercase;
-  font-family: 'Piazolla', sans-serif;
+  font-family: "Piazolla", sans-serif;
 }
 
-.whyHLetter {
+.whyHLetter,
+.gardeningGLetter,
+.becauseELetter {
   font-size: 30px;
-  font-weight: bold;
-  color: darkgoldenrod;
+  color: #f484b1;
   text-decoration: overline;
   text-transform: lowercase;
-  font-family: 'Ceviche One', sans-serif;
+  background-color: #ffe1f8;
+  font-family: "Ceviche One", sans-serif;
 }
 
-.whyYLetter {
+.whyYLetter,
+.developerETwoLetter {
   font-size: 60px;
   font-weight: normal;
-  color: coral;
+  color: black;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Raleway Dots', sans-serif;
+  background-color: #fef2e0;
+  font-family: "Raleway Dots", sans-serif;
 }
 
 /* DID word */
 
-.didDLetter {
+.didDLetter,
+.becauseCLetter {
+  font-family: "Rubik Moonrocks", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ff7c5d;
+  font-size: 35px;
+  background-color: #ffd084;
 }
 
-.didILetter {
+.didILetter,
+.takeTLetter {
+  font-family: "Rubik Vinyl", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #ee0278;
+  text-decoration: line-through;
+  font-size: 45px;
+  background-color: #fce2ec;
 }
 
-.didDTwoLetter {
+.didDTwoLetter,
+.frontendELetter,
+.upPLetter {
+  font-family: "Raleway Dots", sans-serif;
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: oblique;
+  color: #eeee02;
 }
 
 /* THE word */
 
-.theTLetter {
+.theTLetter,
+.developerVLetter,
+.becauseULetter {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(213, 197, 253);
+  text-decoration: overline;
+  text-decoration-style: dotted;
+  font-size: 45px;
 }
 
-.theHLetter {
+.theHLetter,
+.developerLLetter,
+.takeELetter,
+.becauseETwoLetter,
+.wantedELetter {
+  font-family: "Raleway Dots", sans-serif;
+  color: #d0fcc5;
+  text-transform: capitalize;
+  font-weight: 600;
 }
 
-.theELetter {
+.theELetter,
+.takeALetter {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+  color: #00c600;
+  font-size: 60px;
+  font-style: normal;
+  background-image: linear-gradient(-45deg, yellow, red, blue);
 }
 
 /* FRONT-END word */
 
-.frontendFLetter {
+.frontendFLetter,
+.wantedALetter {
+  color: rgb(221, 141, 96);
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  font-size: 25px;
+  background-color: #fef2e0;
 }
 
-.frontendRLetter {
+.frontendRLetter,
+.developerDLetter,
+.gardeningDLetter,
+.theyYLetter,
+.rootOLetter {
+  font-family: "Piazolla", sans-serif;
+  color: #ff2410;
+  font-size: 68px;
+  text-transform: uppercase;
 }
 
-.frontendOLetter {
+.frontendOLetter,
+.developerPLetter,
+.theyHLetter {
+  font-family: "Rubik Moonrocks", serif;
+  font-size: 48px;
+  color: #f14c91;
+  background-color: #d7fbfa;
+  text-decoration: none;
 }
 
-.frontendNLetter {
+.frontendNLetter,
+.takeKLetter {
+  font-family: "Piazolla", sans-serif;
+  text-transform: uppercase;
+  font-size: small;
+  color: #a619f6;
+  text-decoration: overline;
+  background-color: white;
 }
 
-.frontendTLetter {
+.frontendTLetter,
+.frontendNTwoLetter,
+.upULetter,
+.becauseBLetter,
+.toTLetter {
+  text-transform: uppercase;
+  font-family: "Sixtyfour", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: x-large;
 }
 
 .frontendELetter {
+  font-weight: 900;
+  color: black;
+  background-image: linear-gradient(#e1fde9, #80f3a3);
 }
 
 .frontendNTwoLetter {
+  color: #ee02ee;
+  background-color: #fce2ec;
 }
 
-.frontendDLetter {
+.frontendDLetter,
+.developerOLetter,
+.gardeningGTwoLetter,
+.skillsSLetter {
+  font-family: "Rubik Vinyl", serif;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 48px;
+  background-image: linear-gradient(to bottom right, red, yellow);
 }
 
 /* DEVELOPER word */
 
 .developerDLetter {
+  text-decoration: overline;
+  text-decoration-color: #ff7c5d;
+  text-decoration-style: double;
+  font-size: 28px;
 }
-.developerELetter {
+.developerELetter,
+.gardeningILetter {
+  text-decoration-color: #ee0278;
+  text-decoration-style: wavy;
+  color: #8a004e;
 }
 .developerVLetter {
+  background-image: linear-gradient(
+    -65deg,
+    #b9dcff,
+    #7745ff,
+    #0000ff
+  );
 }
 .developerETwoLetter {
+  background-color: #ffe7e6;
 }
 .developerLLetter {
+  font-size: larger;
+  font-weight: bolder;
+  text-decoration: line-through;
 }
-.developerOLetter {
+.developerOLetter,
+.theyELetter,
+.theirTLetter {
+  background-image: linear-gradient(
+    to bottom right,
+    #8000ff,
+    #ff00ff
+  );
+  color: #7800e0;
 }
 .developerPLetter {
+  font-size: 52px;
 }
 .developerEThreeLetter {
+  text-decoration: underline;
+  text-transform: uppercase;
 }
-.developerRLetter {
+.developerRLetter,
+.gardeningNLetter {
+  background-image: linear-gradient(
+    -45deg,
+    #282a56,
+    #4a558f,
+    #e8eaf1
+  );
+  text-decoration: overline;
+  font-size: xx-large;
 }
 
 /* TAKE word */
 
 .takeTLetter {
+  text-decoration-style: double;
 }
 .takeALetter {
+  background-image: linear-gradient(-45deg, yellow, red, #429372);
 }
 .takeKLetter {
+  font-size: x-large;
+  text-decoration-style: wavy;
 }
 .takeELetter {
+  font-size: 60px;
 }
 
 /* UP word */
 
 .upULetter {
+  color: #ff7c5d;
 }
 .upPLetter {
+  font-size: x-large;
+  text-decoration: none;
 }
 
 /* GARDENING word */
 
 .gardeningGLetter {
+  color: #df00cb;
 }
 .gardeningALetter {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRccP-9rMhh8X06nfl08uTFNbg4B7H5tqXjXQ&s);
 }
-.gardeningRLetter {
+.gardeningRLetter,
+.becauseALetter {
+  font-family: "Butcherman", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+  color: #f4e202;
 }
-.gardeningDLetter {
-}
-.gardeningELetter {
+
+.gardeningELetter,
+.improvePLetter {
+  font-family: "Oi", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 55px;
+  color: black;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Vincent_Willem_van_Gogh_127.jpg/1200px-Vincent_Willem_van_Gogh_127.jpg);
 }
 .gardeningNLetter {
+  text-transform: uppercase;
 }
-.gardeningILetter {
-}
-.gardeningNTwoLetter {
-}
-.gardeningGTwoLetter {
+.gardeningNTwoLetter,
+.toOLetter {
+  font-family: "Kablammo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #f65600;
+  font-size: 45px;
 }
 
 /* BECAUSE word */
 
 .becauseBLetter {
+  color: #00c88e;
 }
 .becauseELetter {
-}
-.becauseCLetter {
-}
-.becauseALetter {
-}
-.becauseULetter {
+  text-transform: capitalize;
 }
 .becauseSLetter {
-}
-.becauseETwoLetter {
+  font-family: "Kablammo", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: italic;
+  color: #0a2a40;
+  font-size: 55px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJpFUJM1_hHYqqzD-VHJe4oMh8Pzd6dXCb4g&s);
 }
 
 /* THEY word */
 
 .theyTLetter {
-}
-.theyHLetter {
+  font-family: "Barrio", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 55px;
 }
 .theyELetter {
-}
-.theyYLetter {
+  font-family: "Oi", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 55px;
 }
 
 /* WANTED word */
 
 .wantedWLetter {
+  font-family: "Raleway Dots", sans-serif;
+  background-color: #1f6b45;
 }
 .wantedALetter {
+  text-decoration: overline;
 }
 .wantedNLetter {
+  background-color: #e0f0ea;
+  color: #0f400a;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 35px;
 }
 .wantedTLetter {
+  font-family: "Times New Roman", Times, serif;
+  color: #8c0745;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 45px;
+  background-image: url(https://plus.unsplash.com/premium_photo-1689518469262-6f9499412ef0?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zmxvd2VyJTIwcGFpbnRpbmd8ZW58MHx8MHx8fDA%3D);
 }
 .wantedELetter {
+  background-color: #dfeeff;
+  color: #2d516e;
 }
 .wantedDLetter {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold",
+    sans-serif;
+  background-image: linear-gradient(
+    -45deg,
+    #e0f0ea,
+    #58aa86,
+    #257a52
+  );
+  color: #e6e5ee;
 }
 
 /* TO word */
 
 .toTLetter {
+  color: #d9c6ad;
 }
 .toOLetter {
+  color: #54aa8f;
 }
 
 /* IMPROVE word */
 
 .improveILetter {
+  font-family: "Barrio", serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #fcea56;
+  text-transform: uppercase;
 }
 .improveMLetter {
+  font-family: "Oi", serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #badcfb;
+  background-image: url(https://images.saatchiart.com/saatchi/1743388/art/10910715/9973125-JWOYTPAE-7.jpg);
 }
 .improvePLetter {
+  color: #0f42a0;
 }
 .improveRLetter {
+  font-family: "Butcherman", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 55px;
+  color: #e3f1fd;
+  text-shadow: 4px 2px #3ea1f5;
 }
 .improveOLetter {
+  font-family: "Barrio", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #d9fcfb;
+  text-shadow: 2px 2px #00c5ad;
+  color: #1af3e8;
+  font-size: 42px;
 }
 .improveVLetter {
+  font-family: "Kablammo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 70px;
+  color: #0f42a1;
+  text-shadow: 2px 2px 10px #e3f1fd;
 }
 .improveELetter {
+  ext-transform: uppercase;
+  font-family: "Sixtyfour", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  background-image: url(https://img.freepik.com/premium-photo/watercolor-blue-abstract-art-handmade-diy-painting-textured-paper-background-watercolour-backdrop-painted-frosty-ice-cold-surface-with-broken-lines_152932-2778.jpg);
 }
 
 /* THEIR word */
 
 .theirTLetter {
+  color: #ffe2ff;
 }
 .theirHLetter {
+  font-family: "Barrio", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #6100f0;
+  background-color: #dcc3ff;
 }
 .theirELetter {
+  font-family: "Butcherman", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 58px;
+  color: #ffe3ee;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK5_79J9oloQm_JrhCsBehegzNm5LHY7k9Ow&s);
 }
 .theirILetter {
+  font-family: "Kablammo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #ff0080;
+  font-size: 48px;
 }
 .theirRLetter {
+  background-image: url(https://r2.starryai.com/results/1011697992/68b3f2e6-3a91-4ac2-8110-0222f2418928.webp);
+  background-size: cover;
+  color: #f5e3ff;
 }
 
 /* ROOT word */
 
 .rootRLetter {
+  font-family: "Ceviche One", sans-serif;
+  color: #572200;
+  font-size: 58px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX1brsYl0CxpV5SfcCPnFkA85AqA_rjLybYA&s);
 }
 .rootOLetter {
+  color: #dda772;
+  text-shadow: 3px 3px #ffe7b1;
 }
 .rootOTwoLetter {
+  font-family: "Kablammo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #055c37;
+  text-shadow: 3px 3px #a8d673;
+  font-size: 60px;
+  background-image: url(https://media.istockphoto.com/id/165943159/vector/fall-tree-with-root-illustration-show-strong-roots.jpg?s=612x612&w=0&k=20&c=EZgAAXvapwEvsooo1tdXDpgBxWejH_20W_KbcHHXzi0=);
 }
 .rootTLetter {
+  font-family: "Butcherman", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #dda772;
+  text-shadow: 4px 4px 4px #572200;
+  font-size: 72px;
 }
 
 /* SKILLS word */
-
-.skillsSLetter {
-}
 .skillsKLetter {
+  font-family: "Rubik Vinyl", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 45px;
+  text-shadow: 3px 3px #f49a95;
+  background-image: url(https://a.1stdibscdn.com/unknown-paintings-red-sky-impressionist-landscape-signed-oil-painting-for-sale/a_5093/1536004860850/mobilejpegupload_C5C9C2B0A7F04CC0A385698334066A0A_master.jpg);
 }
 .skillsILetter {
+  color: #f49a95;
+  text-decoration: underline;
+  text-decoration-style: double;
 }
 .skillsLLetter {
+  background-image: url(https://t4.ftcdn.net/jpg/06/40/24/69/360_F_640246951_1QRnvE5Sow9Y62mT67knWPlToCXwtnn8.jpg);
+  font-family: "Oi", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 46px;
 }
 .skillsLTwoLetter {
+  font-family: "Rubik Moonrocks", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fed112;
+  font-size: 38px;
 }
 .skillsSTwoLetter {
+  text-transform: uppercase;
+  font-family: "Sixtyfour", serif;
+  font-size: 58px;
+  text-shadow: 5px 5px black;
+  background-image: url(https://cdn11.bigcommerce.com/s-ekl27muf8u/images/stencil/1280x1280/products/1/10/Red_Poppies_Oil_Painting__21799.1549717875.jpg?c=2);
 }
 
 /* SYMBOLS */
 
-.hyphen {
-}
-.exclamation-mark {
-}
+.hyphen,
+.exclamation-mark,
 .question-mark {
+  font-family: "Kablammo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #7800e0;
+  font-size: 60px;
+  background-color: #ad98fd;
 }
